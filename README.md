@@ -1,5 +1,6 @@
 #Planificator
-##Une aide pour planifier ses projets de développement avec un framework MVC
+
+__Une aide pour planifier ses projets de développement avec un framework MVC__
 
 Ce document est un aide destinée à des étudiants inscrits au bachelier en techniques graphiques de la Haute École de la Province de Liège, orientation web. Dans le cadre de leur formation, ceux-ci sont invités à prendre en main le framework [Laravel](http://www.laravel.com). Afin de les aider dans le développement de leur application, et en plus de la formation reçue sur le framework, j’ai créé une fiche type destinée à recenser tout un tas d’informations utiles pour planifier le travail.
 
