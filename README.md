@@ -1,4 +1,4 @@
-#Planificator
+# Planificator
 
 __Une aide pour planifier ses projets de développement avec un framework MVC__
 
