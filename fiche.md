@@ -20,7 +20,8 @@ ex : *oui, non*
 ex : *optionnel, chiffre, regexp, etc.*
 
 ### Données de la requête
-- Donnée 1 - règle de validation
+- Donnée 1 - règles de validation
+- Donnée 2 - règles de validation
  
 ### Ajax ?
 ex : *oui, non*
