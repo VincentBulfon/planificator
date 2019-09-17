@@ -5,7 +5,7 @@ ex : *http://www.monsite.com/segment-fixe/{segment-variable}/{segment-optionnel?
 ex : *list_users*
 
 ## Action de la route
-ex : *UserController@listBySpeciality*
+ex : *UserController@index*
 
 ## Objectifs de la requête
 ex : *L’objectif premier de cette requête est d’afficher la liste des utilisateurs. Les objectifs secondaires de cette requête sont d’afficher en plus un formulaire de contact général pour le site (envoi par mail) et une liste des photos du dernier événement*
