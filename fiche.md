@@ -1,64 +1,64 @@
-#Route : http://…
+# Route : http://…
 ex : *http://www.monsite.com/segment-fixe/{segment-variable}/{segment-optionnel?}/segment-fixe/{segment-any}/etc*
 
-##Alias éventuel de la route
+## Alias éventuel de la route
 ex : *list_users*
 
-##Action de la route
+## Action de la route
 ex : *UserController@listBySpeciality*
 
-##Objectifs de la requête
+## Objectifs de la requête
 ex : *L’objectif premier de cette requête est d’afficher la liste des utilisateurs. Les objectifs secondaires de cette requête sont d’afficher en plus un formulaire de contact général pour le site (envoi par mail) et une liste des photos du dernier événement*
 
-###Méthode HTTP
+### Méthode HTTP
 ex : *Post, Get, Put, Delete*
 
-###Secure ?
+### Secure ?
 ex : *oui, non*
 
-###Règles pour les segments
+### Règles pour les segments
 ex : *optionnel, chiffre, regexp, etc.*
 
-###Données de la requête
+### Données de la requête
 - Donnée 1 - règle de validation
  
-###Ajax ?
+### Ajax ?
 ex : *oui, non*
 
-###Données persistantes
+### Données persistantes
 ex : *cookie : login, session : panier, storage : préférences*
 
-###Filtre avant
+### Filtre avant
 ex : *auth, dans la route*
 
-###Filtre après
+### Filtre après
 ex : *concaténation, dans le controlleur MyController*
 
-###Modèle lié ?
+### Modèle lié ?
 ex : *User*
 
-###Commentaire sur la route
+### Commentaire sur la route
 ex : *Cette route doit être groupée avec les routes x et y afin d’appliquer le filtre machin. Le controlleur est un controlleur de ressources imbriquées, etc.*
 
-#Réponse
-##Type
+# Réponse
+## Type
 ex : *Redirect, Vue, JSON, File Download, etc.*
 
-##Si Vue
-###Layout ?
+## Si Vue
+### Layout ?
 ex : *master.layout*
-###Vue principale
+### Vue principale
 ex : *users*
-###Données pour la vue principale
+### Données pour la vue principale
 ex : *La liste des utilisateurs de GSM qui habitent namur et qui n’ont pas encore payé leur forfait* 
 
-###Vues liées ?
+### Vues liées ?
 ex : *forms.contact, modules.short_comments*
-###Données pour la vue liée
+### Données pour la vue liée
 ex: *Une liste des 10 derniers commentaires, seulement les 50 premières lettres*
 
-###Compositeur ou créateur de vues éventuel
+### Compositeur ou créateur de vues éventuel
 ex : *closure*
 
-##Cookie associé ?
-##En-têtes ?
+## Cookie associé ?
+## En-têtes ?
